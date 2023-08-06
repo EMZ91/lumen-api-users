@@ -10,7 +10,7 @@ Follow the steps mentioned below to install and run the project.
 4. Update the database name and credentials in `.env` file
 5. Run the command `php artisan migrate --seed`
 6. Run the command `php artisan jwt:secret` 
-7. You may create a virtualhost entry to access the application or run `php artisan serve` from the project root and visit `http://127.0.0.1:8000`
+7. You may create a virtualhost entry to access the application or run `php -S localhost:8000 -t public` from the project root and visit `http://127.0.0.1:8000`
 
 # Application Endpoints
 
